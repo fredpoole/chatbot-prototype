@@ -1,0 +1,12 @@
+You: Hello, I want to rent an apartment.
+Agent: That's great! What's your budget?
+You: I think maybe around one thousand dollars per month would be good.
+Agent: Okay, and how many bedrooms do you need?
+You: I need two bedrooms because I have a roommate who will live with me.
+Agent: Perfect! What area are you looking in?
+You: I prefer downtown because it is close to my work and there are many restaurants nearby.
+
+
+
+
+

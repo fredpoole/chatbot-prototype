@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: chatbot-prototype
+    env: python
+    buildCommand: pip install -r requirements.txt && python download_nltk_resources.py
+    startCommand: gunicorn server4:app
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+    healthCheckPath: /
