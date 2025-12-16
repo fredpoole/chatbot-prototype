@@ -12,3 +12,10 @@ venv/
 *.egg-info/
 dist/
 build/
+
+# Files that might contain API keys or secrets
+*api*key*.txt
+*secret*.txt
+code for setting bot.txt
+*.key
+*.pem
