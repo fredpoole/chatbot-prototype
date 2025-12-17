@@ -1103,7 +1103,8 @@ REALTIME_HTML = REALTIME_HTML.replace("{REALTIME_URL_PLACEHOLDER}", REALTIME_URL
 
 if __name__ == "__main__":
     # Support both local and cloud deployment
-    port = int(os.getenv("PORT", 5000))
+    # Default to 5050 locally; cloud platforms override via PORT env var
+    port = int(os.getenv("PORT", 5050))
     host = os.getenv("HOST", "127.0.0.1")
     debug = os.getenv("DEBUG", "True").lower() == "true"
     app.run(host=host, port=port, debug=debug)
